@@ -28,4 +28,4 @@ def about_us():
 
 @frontend.route('/updates')
 def updates():
-    return render_template('updates.html')
+    return render_template('update.html')
